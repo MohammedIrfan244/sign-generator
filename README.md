@@ -1,8 +1,6 @@
-# EFSP Signature Generator 
+# .pfx Signature Generator 
 
-A simple Node.js utility that loads a `.pfx` certificate, signs the current UTC timestamp using RSA-SHA256, and outputs a Base64-encoded signature.
-
-This signature can be used for Tyler Technologies EFSP (e-filing) integrations where a `tyl-api-auth` header or WS-Security signature is required.
+A lightweight Node.js utility that loads a `.pfx` certificate, signs the current UTC timestamp (or any arbitrary text) using RSA-SHA256, and outputs a Base64-encoded digital signature.
 
 ---
 
